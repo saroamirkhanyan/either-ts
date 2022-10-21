@@ -18,6 +18,6 @@ console.log(
   E.match(
     (err) => `Error is ${err}`,
     (value) => `Result is ${value}`
-  )(sqrt(12))
+  )(log(12))
 );
 ```
